@@ -1,0 +1,21 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["pulseaudio", "battery", "network"],
+
+  "clock": {
+    "format": "{:%H:%M}"
+  },
+  "battery": {
+    "format": "{capacity}% {icon}"
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}"
+  },
+  "network": {
+    "format": "{ifname} {ipaddr}"
+  }
+}
+
