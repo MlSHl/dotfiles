@@ -1,1 +1,4 @@
-/home/mishi/dotfiles/bashrc
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
